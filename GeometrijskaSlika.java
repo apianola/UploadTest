@@ -7,7 +7,11 @@ public abstract class GeometrijskaSlika {
 
 	public GeometrijskaSlika() {
 	}
-
+//dodamo novi konstruktor
+	public GeometrijskaSlika(boolean fill) {
+		this.fill = fill;		
+	}
+	
 	public GeometrijskaSlika(boolean fill, String boja) {
 		this.fill = fill;
 		this.boja = boja;
